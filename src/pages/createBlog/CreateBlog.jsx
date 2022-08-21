@@ -60,12 +60,6 @@ export const CreateBlog = () => {
           accept="image/png, image/jpeg"
         />
         <label htmlFor="blog-body">Blog Body</label>
-        {/* <textarea
-          id="blog-body"
-          required
-          value={body}
-          onChange={(e) => setBody(e.target.value)}
-        /> */}
         <ReactQuill
           theme="snow"
           formats={format}
